@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="3" failures="0" hostname="Seong-gyuui-MacBookPro.local" name="com.allendowney.thinkdast.MyArrayListTest" skipped="0" tests="20" time="0.413" timestamp="2020-11-16T15:23:20">
+  <properties>
+    <property name="java.vendor" value="N/A" />
+    <property name="env.NVM_BIN" value="/Users/seong-gyulee/.nvm/versions/node/v12.18.3/bin" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.XPC_SERVICE_NAME" value="0" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.NVM_INC" value="/Users/seong-gyulee/.nvm/versions/node/v12.18.3/include/node" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="env.TMPDIR" value="/var/folders/g3/w6xjmbk11cj4s_m4tp8nwr800000gn/T/" />
+    <property name="env.PWD" value="/Users/seong-gyulee/study/ThinkDataStructures/code" />
+    <property name="env.LANG" value="ko_KR.UTF-8" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/usr/local/Cellar/ant/1.10.9/libexec" />
+    <property name="java.runtime.version" value="15.0.1+9" />
+    <property name="env.NVM_CD_FLAGS" value="-q" />
+    <property name="user.name" value="seong-gyulee" />
+    <property name="env.USER" value="seong-gyulee" />
+    <property name="env.SHELL" value="/bin/zsh" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x3:0x33" />
+    <property name="env.PATH" value="/Users/seong-gyulee/.nvm/versions/node/v12.18.3/bin:/Users/seong-gyulee/.jenv/shims:/Users/seong-gyulee/.jenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin" />
+    <property name="user.language" value="ko" />
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home/lib" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="env.XPC_FLAGS" value="0x0" />
+    <property name="ant.project.name" value="JavaCS" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="java.version" value="15.0.1" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="env.SHLVL" value="1" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="59.0" />
+    <property name="user.country" value="KR" />
+    <property name="ant.file.JavaCS" value="/Users/seong-gyulee/study/ThinkDataStructures/code/build.xml" />
+    <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="env.JENV_LOADED" value="1" />
+    <property name="env.LOGNAME" value="seong-gyulee" />
+    <property name="ant.file" value="/Users/seong-gyulee/study/ThinkDataStructures/code/build.xml" />
+    <property name="os.version" value="10.15.7" />
+    <property name="env.TERM_PROGRAM_VERSION" value="433" />
+    <property name="env.JAVA_MAIN_CLASS_16194" value="org.apache.tools.ant.launch.Launcher" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="15.0.1+9" />
+    <property name="ant.library.dir" value="/usr/local/Cellar/ant/1.10.9/libexec/lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JAVA_HOME" value="/usr/local/opt/openjdk" />
+    <property name="env.TERM" value="xterm-256color" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="target" value="12" />
+    <property name="user.home" value="/Users/seong-gyulee" />
+    <property name="java.version.date" value="2020-10-20" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.TERM_PROGRAM" value="Apple_Terminal" />
+    <property name="java.library.path" value="/Users/seong-gyulee/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="https://openjdk.java.net/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.JENV_SHELL" value="zsh" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.allendowney.thinkdast.MyArrayListTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/seong-gyulee/study/ThinkDataStructures/code/junit/TEST-com.allendowney.thinkdast.MyArrayListTest.xml crashfile=/Users/seong-gyulee/study/ThinkDataStructures/code/junitvmwatcher2665771368023982422.properties propsfile=/Users/seong-gyulee/study/ThinkDataStructures/code/junit15835712292509270028.properties" />
+    <property name="java.class.path" value="/Users/seong-gyulee/study/ThinkDataStructures/code/bin:/Users/seong-gyulee/study/ThinkDataStructures/code/lib/jedis-2.8.0.jar:/Users/seong-gyulee/study/ThinkDataStructures/code/lib/jsoup-1.8.3.jar:/Users/seong-gyulee/study/ThinkDataStructures/code/lib/junit-4.12.jar:/Users/seong-gyulee/study/ThinkDataStructures/code/lib/hamcrest-core-1.3.jar:/Users/seong-gyulee/study/ThinkDataStructures/code/lib/jcommon-1.0.23.jar:/Users/seong-gyulee/study/ThinkDataStructures/code/lib/jfreechart-1.0.19.jar:/Users/seong-gyulee/study/ThinkDataStructures/code/lib/servlet.jar:/Users/seong-gyulee/study/ThinkDataStructures/code/lib/ant-junit.jar:/Users/seong-gyulee/study/ThinkDataStructures/code/lib/commons-math3-3.6.jar:/Users/seong-gyulee/study/ThinkDataStructures/code/lib/hamcrest-library-1.3.jar:/usr/local/Cellar/ant/1.10.9/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.10.9/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.10.9/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.10.9/libexec/lib/ant-junit4.jar" />
+    <property name="env.TERM_SESSION_ID" value="F0F820C8-EF37-4090-AD85-34BC86225300" />
+    <property name="jdk.debug" value="release" />
+    <property name="ant.file.type.JavaCS" value="file" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="15" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.HOME" value="/Users/seong-gyulee" />
+    <property name="java.io.tmpdir" value="/var/folders/g3/w6xjmbk11cj4s_m4tp8nwr800000gn/T/" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.42DRidJw0D/Listeners" />
+    <property name="os.arch" value="x86_64" />
+    <property name="user.dir" value="/Users/seong-gyulee/study/ThinkDataStructures/code" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="basedir" value="/Users/seong-gyulee/study/ThinkDataStructures/code" />
+    <property name="ant.java.version" value="15" />
+    <property name="ant.core.lib" value="/usr/local/Cellar/ant/1.10.9/libexec/lib/ant.jar" />
+    <property name="source" value="12" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="env.NVM_DIR" value="/Users/seong-gyulee/.nvm" />
+    <property name="java.specification.version" value="15" />
+    <property name="ant.project.invoked-targets" value="MyArrayListTest" />
+  </properties>
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testToArray" time="0.007" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testAddIntT" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testGet" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testSet" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testAddAllCollectionOfQextendsT" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testClear" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testAddT" time="0.001" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testSize" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testLastIndexOf" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testContainsAll" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testRemoveObject" time="0.006">
+    <error message="Index -1 out of bounds for length 10" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 10
+	at com.allendowney.thinkdast.MyArrayList.remove(MyArrayList.java:201)
+	at com.allendowney.thinkdast.MyArrayList.remove(MyArrayList.java:191)
+	at com.allendowney.thinkdast.MyArrayListTest.testRemoveObject(MyArrayListTest.java:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</error>
+  </testcase>
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testContains" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testIndexOfNull" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testIndexOf" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testMyList" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testIsEmpty" time="0.001" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testIterator" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testRemoveAll" time="0.001">
+    <error message="Index -1 out of bounds for length 10" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 10
+	at com.allendowney.thinkdast.MyArrayList.remove(MyArrayList.java:201)
+	at com.allendowney.thinkdast.MyArrayList.remove(MyArrayList.java:191)
+	at com.allendowney.thinkdast.MyArrayList.removeAll(MyArrayList.java:211)
+	at com.allendowney.thinkdast.MyArrayListTest.testRemoveAll(MyArrayListTest.java:234)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</error>
+  </testcase>
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testRemoveInt" time="0.001">
+    <error message="Index -1 out of bounds for length 10" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 10
+	at com.allendowney.thinkdast.MyArrayList.remove(MyArrayList.java:201)
+	at com.allendowney.thinkdast.MyArrayListTest.testRemoveInt(MyArrayListTest.java:223)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</error>
+  </testcase>
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testSubList" time="0.001" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
